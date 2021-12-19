@@ -1,0 +1,135 @@
+body {
+  background-color: #4a515614;
+}
+/*the above is to style the whole page*/
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #564b4b;
+  padding: 5px 50px 5px 0;
+}
+/*the above is to style the header area*/
+#header .brand {
+  background-color: #ffff;
+  padding: 5px 10px 5px 60px;
+}
+/*the above is style the name-brand*/
+#header .brand p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/*the above is to style the name brand targeting the p tags*/
+#header .menu .menu-list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+/*the above targets the menu lists*/
+#header .menu .menu-list li a {
+  text-decoration: none;
+  color: #ffff;
+  font-weight: bold;
+}
+/*the above targets the a tags in the menu list*/
+#banner {
+  position: relative;
+}
+/*the above targets the banner*/
+#banner img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+/*the above targets the banner img*/
+#banner .subtitle {
+  color: #ffff;
+  font-weight: bold;
+  position: absolute;
+  bottom: 10px;
+  right: 50px;
+  font-size: 24px;
+}
+/*the above targets the subtitle in the banner*/
+.portfolio-section .section-content .profile-image {
+  height: 200px;
+  width: auto;
+  object-fit: contain;
+  float: left;
+  margin-right: 5px;
+}
+/*the above targets the profile img*/
+.portfolio-section {
+  margin-bottom: 10px;
+  display: flex;
+}
+/*the above targets the portfolio area*/
+.portfolio-section .section-title {
+  padding-right: 10px;
+  border-right: 2px #564b4b solid;
+  font-weight: bold;
+  font-size: 30px;
+  width: 300px;
+  display: flex;
+  justify-content: flex-end;
+}
+/*the above targets the section titles in the portfolio area*/
+.portfolio-section .section-content {
+  padding-left: 20px;
+  padding-right: 40px;
+  display: flex;
+  flex: 1;
+}
+/*the above targets the section contents in the portfolio area*/
+.portfolio-section .section-content.work-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*the above targets the the items in the protfolio area*/
+.portfolio-section .section-content.work-items .work-item-details {
+  position: relative;
+  width: 48.5%;
+  margin: 5px;
+}
+/*the above targets the work items positioning*/
+.portfolio-section .section-content.work-items .info {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: lavenderblush;
+  padding: 5px 10px 0px 5px;
+}
+/*the above targets the padding around the work items*/
+.portfolio-section .section-content.work-items .info .subtitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+/*the above targets the surf item div*/
+.portfolio-section .section-content.work-items .surf-report {
+  width: 100%;
+}
+/*the above targets the surf item img*/
+.portfolio-section .section-content.work-items img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+/*the above targets the surf item img*/
+.portfolio-section .section-content.section-contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+/*the above targets the contact lists*/
+.contact-list-items li {
+  display: inline-block;
+  margin-right: 40px;
+}
+/*the above targets the contact list li tags*/
+ul.contact-list-items {
+  padding-left: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+/*the above targets the contact lists items*/

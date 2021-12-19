@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!---titled the site kashim's resume instead of portfolio demo-->
+    <title>Kashim's Resume</title>
+    <link rel="stylesheet" href="Assets/styling.css" />
+    <!--added the stylesheet for css-->
+  </head>
+  <body>
+    <!---this is the header part of the page-->
+    <section id="header">
+      <div class="brand">
+          <!--p tag instead of h1 tag, easier to manipulate the font this way--> 
+        <p>kashim oriaje</p>
+      </div>
+      <!--this is the part for the menu list-->
+      <div class="menu">
+        <ul class="menu-list">
+            <!--using the # allows to use id to link different parts of the page-->
+          <li>
+            <a href="#about_me"> about me</a>
+          </li>
+          <li>
+            <a href="#work">work</a>
+          </li>
+          <li>
+            <a href="#contact_me">contact me</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/Kashim-Oriaje" target="_blank">resume</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!---this is the part for the banner-->
+    <div id="banner">
+      <img src="Assets\Images\banner.jpg" alt="banner" />
+        <!--added my portfolia as a cool subheading, suggestions welcome-->
+      <p class="subtitle">My Portfolio</p>
+    </div>
+
+    <div class="portfolio-section" id="about_me">
+      <!-- setting up the navigating links on the side and their menu contents, having a different div makes it easy to manipulate-->
+      <div class="section-title"><p>About Me</p></div>
+      <div class="section-content">
+          <!--inserted the page as part of the content, having the page cover the whole page will take alot of space. taking attention from the contect written-->
+        <p>
+         <img src="Assets/Images/_RE_3891.jpg" class="profile-image" alt="the image of Kashim-Oriaje"/> My key responsibilities I have mastered are working alongside and
+          liaising with the Director which consists of evaluating current
+          practices, reviewing alternatives, consultations with patient care
+          managers, whilst providing education and training to staff, to
+          encourage the importance of focusing on the clients needs and
+          expectations. With my proven dedication to providing the highest
+          quality of patient service, I excel at efficiently managing patient
+          scheduling, registration, and inquiries in a compassionate and
+          supportive manner to enhance patient satisfaction.
+        </p>
+      </div>
+    </div>
+    <!---this is the part for the work area-->
+    <div class="portfolio-section" id="work">
+        <!--using ID to link to the previous # tag setup-->
+      <div class="section-title"><p>Work</p></div>
+      <!--putting a div inside a div to use the flexbox, wasn't sure this could work-->
+      <!--downloaded new images, could not find exact match to the demo site-->
+      <div class="section-content work-items">
+        <div class="surf-report work-item-details">
+          <img src="Assets\Images\surf report.jpg" alt="surf report">
+          <div class="info">
+            <p class="subtitle">Surf Report</p>
+            <p>MERN stack</p>
+          </div>
+        </div>
+        <div class="work-item-details">
+          <img src="Assets\Images\Calculator.jpg" alt="calculator"/>
+          <div class="info">
+            <p class="subtitle">Calculator</p>
+            <p>React/JavaScript/CSS</p>
+          </div>
+        </div>
+        <div class="work-item-details">
+          <img src="Assets\Images\LED wall.jpg" alt="LED wall"/>
+          <div class="info">
+            <p class="subtitle">LED Wall</p>
+            <p>Node/IoT</p>
+          </div>
+        </div>
+        <div class="work-item-details">
+          <img src="Assets\Images\Pastel puzzles.jpg" alt="Pastel Puzzles"/>
+          <div class="info">
+            <p class="subtitle">Pastel Puzzles</p>
+            <p>MERN Stack</p>
+          </div>
+        </div>
+        <div class="work-item-details">
+          <img src="Assets\Images\Run Ruddy.jpg" alt="Run Buddy"/>
+          <div class="info">
+            <p class="subtitle">Run Buddy</p>
+            <p>HTML/CSS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--this is the part for the contact-->
+    <div class="portfolio-section" id="contact_me">
+    <div class="section-title">
+      <p>contact me</p></div>
+      <div class="section-content section-contact" >
+    <ul class="contact-list-items">
+        <li>Ph. 043 053 7028</li>
+        <li>E. mthrice@hotmail.com</li>
+        <li><a href="https://github.com/Oriaje">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/Kashim-Oriaje">LinkedIn</a></li>
+      </ul></div>
+      <ul>
+    </div>
+  </body>
+</html>
